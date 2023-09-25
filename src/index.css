@@ -5,9 +5,14 @@
 
 body {
   font-family: "Poppins";
-  @apply bg-background;
+  @apply bg-background text-text;
 }
 
+h2 {
+  @apply font-semibold text-primary;
+}
+
+/* buttons styles */
 .text-button {
   @apply flex aspect-square items-center rounded-lg p-3 text-2xl hover:bg-[#E9EFFF]/80 hover:text-primary active:bg-[#E9EFFF];
 }
@@ -18,4 +23,10 @@ body {
 
 .primary-button {
   @apply bg-primary px-3 py-1 text-center text-white;
+}
+
+/* shapes */
+
+.circle-shape {
+  @apply flex h-10 w-10 items-center justify-center rounded-full bg-background text-xs;
 }

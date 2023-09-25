@@ -9,6 +9,10 @@ export default {
         text: "#0B0B0B",
         background: "#F9FAFF",
         divider: "#EEEEEE",
+        avatar: {
+          background: "#EDF4FF",
+          text: "#D0E1FF",
+        },
         error: "#A80000",
       },
     },

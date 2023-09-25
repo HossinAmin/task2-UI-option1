@@ -1,3 +1,4 @@
+import CandidatesList from "./components/Candidates/List";
 import Sidebar from "./components/Sidebar";
 import Topbar from "./components/Topbar";
 import Searchbar from "./components/Searchbar";
@@ -7,14 +8,14 @@ export default function App() {
   return (
     <div className="flex h-screen w-screen bg-background">
       <Sidebar />
-      <div className="flex w-full flex-col gap-5">
+      <div className="flex w-full flex-col gap-5 px-10">
         <Topbar />
-        <div className="flex flex-col justify-between">
-          <div className="flex  flex-col gap-5 px-5">
-            <Searchbar></Searchbar>
-            <FiltersMenu></FiltersMenu>
+        <div className="flex flex-grow justify-between gap-5">
+          <div className="flex flex-col gap-5">
+            <Searchbar />
+            <FiltersMenu />
           </div>
-          <div></div>
+          <CandidatesList />
         </div>
       </div>
     </div>

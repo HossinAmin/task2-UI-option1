@@ -30,3 +30,7 @@ h2 {
 .circle-shape {
   @apply flex h-10 w-10 items-center justify-center rounded-full bg-background text-xs;
 }
+
+.avatar {
+  @apply bg-avatar-background text-avatar-text flex h-7 w-7 items-center justify-center rounded-full p-3 text-sm;
+}

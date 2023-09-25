@@ -1,11 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  color: #0b0b0b;
+  font-family: "Poppins";
+  @apply bg-background;
 }
 
 .text-button {
-  @apply flex aspect-square items-center rounded-lg p-3 text-2xl hover:bg-[#E9EFFF]/80 hover:text-[#1D4ED8] active:bg-[#E9EFFF];
+  @apply flex aspect-square items-center rounded-lg p-3 text-2xl hover:bg-[#E9EFFF]/80 hover:text-primary active:bg-[#E9EFFF];
+}
+
+.text-button-fill {
+  @apply text-button border bg-white;
+}
+
+.primary-button {
+  @apply bg-primary px-3 py-1 text-center text-white;
 }

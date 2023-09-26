@@ -2,10 +2,10 @@ import { Icon } from "@iconify/react";
 
 export default function Sidebar() {
   const iconNames = [
-    "ph:house",
+    "ci:house-01",
     "ci:users-group",
     "lucide:calendar-check",
-    "ph:share-network-light",
+    "ci:share-android",
     "ci:file-document",
     "ci:notebook",
     "ci:heart-01",

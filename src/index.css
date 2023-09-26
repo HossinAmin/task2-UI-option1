@@ -31,6 +31,13 @@ h2 {
   @apply flex h-10 w-10 items-center justify-center rounded-full bg-background text-xs;
 }
 
+/* inputs */
+
+input[type="checkbox"] {
+  @apply aspect-square h-5;
+}
+
+/* others */
 .list:not(:last-child)::after {
   content: ",";
 }

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "John Smith",
+    "location": "New York, USA",
+    "degree": "Bachelor of Science - NYU (2022 - 2026)",
+    "hash": "#experienced_candidate",
+    "tags": ["Finance", "Technology"]
+  },
+  {
+    "id": 2,
+    "name": "Sarah Johnson",
+    "location": "Los Angeles, USA",
+    "degree": "Bachelor of Arts - UCLA (2021 - 2025)",
+    "hash": "#entry_level_candidate",
+    "tags": ["Marketing", "Communication"]
+  },
+  {
+    "id": 3,
+    "name": "Michael Brown",
+    "location": "Chicago, USA",
+    "degree": "Master of Business Administration - University of Chicago (2020 - 2022)",
+    "hash": "#experienced_candidate",
+    "tags": ["Business", "Management"]
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "location": "San Francisco, USA",
+    "degree": "Master of Computer Science - Stanford University (2023 - 2025)",
+    "hash": "#experienced_candidate",
+    "tags": ["Technology", "Software Development"]
+  },
+  {
+    "id": 5,
+    "name": "James Wilson",
+    "location": "Houston, USA",
+    "degree": "Bachelor of Engineering - Texas A&M University (2022 - 2026)",
+    "hash": "#entry_level_candidate",
+    "tags": ["Engineering", "Mechanical"]
+  },
+  {
+    "id": 6,
+    "name": "Linda Martinez",
+    "location": "Miami, USA",
+    "degree": "Bachelor of Fine Arts - Miami University (2021 - 2025)",
+    "hash": "#entry_level_candidate",
+    "tags": ["Art", "Design"]
+  },
+  {
+    "id": 7,
+    "name": "Robert Johnson",
+    "location": "Seattle, USA",
+    "degree": "Ph.D. in Physics - University of Washington (2019 - 2023)",
+    "hash": "#experienced_candidate",
+    "tags": ["Science", "Research"]
+  },
+  {
+    "id": 8,
+    "name": "Mary Thompson",
+    "location": "Dallas, USA",
+    "degree": "Bachelor of Business Administration - Southern Methodist University (2022 - 2026)",
+    "hash": "#entry_level_candidate",
+    "tags": ["Business", "Marketing"]
+  },
+  {
+    "id": 9,
+    "name": "William Lee",
+    "location": "Boston, USA",
+    "degree": "Master of Public Health - Harvard University (2020 - 2022)",
+    "hash": "#experienced_candidate",
+    "tags": ["Healthcare", "Public Health"]
+  },
+  {
+    "id": 10,
+    "name": "Jennifer Hall",
+    "location": "Atlanta, USA",
+    "degree": "Bachelor of Science in Nursing - Emory University (2022 - 2026)",
+    "hash": "#entry_level_candidate",
+    "tags": ["Healthcare", "Nursing"]
+  }
+]

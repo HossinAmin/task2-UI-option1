@@ -26,9 +26,7 @@ export default function Sidebar() {
         <button className="text-button">
           <Icon icon="mingcute:settings-3-line" />
         </button>
-        <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#B1CDFD] p-3 text-sm text-[#D7E5FD]">
-          AS
-        </span>
+        <span className="avatar">AS</span>
       </div>
     </aside>
   );

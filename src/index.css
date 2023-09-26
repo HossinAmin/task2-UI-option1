@@ -30,3 +30,18 @@ h2 {
 .circle-shape {
   @apply flex h-10 w-10 items-center justify-center rounded-full bg-background text-xs;
 }
+
+/* inputs */
+
+input[type="checkbox"] {
+  @apply aspect-square h-5;
+}
+
+/* others */
+.list:not(:last-child)::after {
+  content: ",";
+}
+
+.avatar {
+  @apply bg-avatar-background text-avatar-text flex h-7 w-7 items-center justify-center rounded-full p-3 text-sm;
+}

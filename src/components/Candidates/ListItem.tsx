@@ -1,4 +1,4 @@
-import { Candidate } from "../../types/candidate";
+import Candidate from "../../types/candidate";
 
 interface ListItemPropType {
   candidate: Candidate;

@@ -1,10 +1,6 @@
 import { useState } from "react";
 import { Icon } from "@iconify/react";
 
-interface DropdownProps {
-  onSelect: (option: string) => void;
-}
-
 const options = [
   "Applied",
   "Shortlisted",
@@ -17,7 +13,7 @@ const options = [
   "Withdrawn",
 ];
 
-export default function FilterDropdown({ onSelect }: DropdownProps) {
+export default function FilterDropdown() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
 
@@ -27,7 +23,6 @@ export default function FilterDropdown({ onSelect }: DropdownProps) {
 
   const handleOptionSelect = (option: string) => {
     setSelectedOption(option);
-    onSelect(option);
     setIsOpen(false);
   };
 
